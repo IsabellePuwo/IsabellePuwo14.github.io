@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC60FFBF2A12924F0010B1C7 /* final_examApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60FFBE2A12924F0010B1C7 /* final_examApp.swift */; };
+		AC60FFC12A12924F0010B1C7 /* final_examDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60FFC02A12924F0010B1C7 /* final_examDocument.swift */; };
+		AC60FFC32A12924F0010B1C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60FFC22A12924F0010B1C7 /* ContentView.swift */; };
+		AC60FFC52A1292500010B1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC60FFC42A1292500010B1C7 /* Assets.xcassets */; };
+		AC60FFC82A1292500010B1C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC60FFC72A1292500010B1C7 /* Preview Assets.xcassets */; };
+		AC60FFD42A1292500010B1C7 /* final_examTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60FFD32A1292500010B1C7 /* final_examTests.swift */; };
+		AC60FFDE2A1292500010B1C7 /* final_examUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60FFDD2A1292500010B1C7 /* final_examUITests.swift */; };
+		AC60FFE02A1292500010B1C7 /* final_examUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60FFDF2A1292500010B1C7 /* final_examUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC60FFD02A1292500010B1C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC60FFB32A12924F0010B1C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC60FFBA2A12924F0010B1C7;
+			remoteInfo = "final exam";
+		};
+		AC60FFDA2A1292500010B1C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC60FFB32A12924F0010B1C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC60FFBA2A12924F0010B1C7;
+			remoteInfo = "final exam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC60FFBB2A12924F0010B1C7 /* final exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "final exam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC60FFBE2A12924F0010B1C7 /* final_examApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_examApp.swift; sourceTree = "<group>"; };
+		AC60FFC02A12924F0010B1C7 /* final_examDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_examDocument.swift; sourceTree = "<group>"; };
+		AC60FFC22A12924F0010B1C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC60FFC42A1292500010B1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC60FFC72A1292500010B1C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC60FFC92A1292500010B1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC60FFCA2A1292500010B1C7 /* final_exam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = final_exam.entitlements; sourceTree = "<group>"; };
+		AC60FFCF2A1292500010B1C7 /* final examTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "final examTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC60FFD32A1292500010B1C7 /* final_examTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_examTests.swift; sourceTree = "<group>"; };
+		AC60FFD92A1292500010B1C7 /* final examUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "final examUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC60FFDD2A1292500010B1C7 /* final_examUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_examUITests.swift; sourceTree = "<group>"; };
+		AC60FFDF2A1292500010B1C7 /* final_examUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_examUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC60FFB82A12924F0010B1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60FFCC2A1292500010B1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60FFD62A1292500010B1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC60FFB22A12924F0010B1C7 = {
+			isa = PBXGroup;
+			children = (
+				AC60FFBD2A12924F0010B1C7 /* final exam */,
+				AC60FFD22A1292500010B1C7 /* final examTests */,
+				AC60FFDC2A1292500010B1C7 /* final examUITests */,
+				AC60FFBC2A12924F0010B1C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC60FFBC2A12924F0010B1C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC60FFBB2A12924F0010B1C7 /* final exam.app */,
+				AC60FFCF2A1292500010B1C7 /* final examTests.xctest */,
+				AC60FFD92A1292500010B1C7 /* final examUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC60FFBD2A12924F0010B1C7 /* final exam */ = {
+			isa = PBXGroup;
+			children = (
+				AC60FFBE2A12924F0010B1C7 /* final_examApp.swift */,
+				AC60FFC02A12924F0010B1C7 /* final_examDocument.swift */,
+				AC60FFC22A12924F0010B1C7 /* ContentView.swift */,
+				AC60FFC42A1292500010B1C7 /* Assets.xcassets */,
+				AC60FFC92A1292500010B1C7 /* Info.plist */,
+				AC60FFCA2A1292500010B1C7 /* final_exam.entitlements */,
+				AC60FFC62A1292500010B1C7 /* Preview Content */,
+			);
+			path = "final exam";
+			sourceTree = "<group>";
+		};
+		AC60FFC62A1292500010B1C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC60FFC72A1292500010B1C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC60FFD22A1292500010B1C7 /* final examTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC60FFD32A1292500010B1C7 /* final_examTests.swift */,
+			);
+			path = "final examTests";
+			sourceTree = "<group>";
+		};
+		AC60FFDC2A1292500010B1C7 /* final examUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC60FFDD2A1292500010B1C7 /* final_examUITests.swift */,
+				AC60FFDF2A1292500010B1C7 /* final_examUITestsLaunchTests.swift */,
+			);
+			path = "final examUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC60FFBA2A12924F0010B1C7 /* final exam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC60FFE32A1292500010B1C7 /* Build configuration list for PBXNativeTarget "final exam" */;
+			buildPhases = (
+				AC60FFB72A12924F0010B1C7 /* Sources */,
+				AC60FFB82A12924F0010B1C7 /* Frameworks */,
+				AC60FFB92A12924F0010B1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "final exam";
+			productName = "final exam";
+			productReference = AC60FFBB2A12924F0010B1C7 /* final exam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC60FFCE2A1292500010B1C7 /* final examTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC60FFE62A1292500010B1C7 /* Build configuration list for PBXNativeTarget "final examTests" */;
+			buildPhases = (
+				AC60FFCB2A1292500010B1C7 /* Sources */,
+				AC60FFCC2A1292500010B1C7 /* Frameworks */,
+				AC60FFCD2A1292500010B1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC60FFD12A1292500010B1C7 /* PBXTargetDependency */,
+			);
+			name = "final examTests";
+			productName = "final examTests";
+			productReference = AC60FFCF2A1292500010B1C7 /* final examTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC60FFD82A1292500010B1C7 /* final examUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC60FFE92A1292500010B1C7 /* Build configuration list for PBXNativeTarget "final examUITests" */;
+			buildPhases = (
+				AC60FFD52A1292500010B1C7 /* Sources */,
+				AC60FFD62A1292500010B1C7 /* Frameworks */,
+				AC60FFD72A1292500010B1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC60FFDB2A1292500010B1C7 /* PBXTargetDependency */,
+			);
+			name = "final examUITests";
+			productName = "final examUITests";
+			productReference = AC60FFD92A1292500010B1C7 /* final examUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC60FFB32A12924F0010B1C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AC60FFBA2A12924F0010B1C7 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					AC60FFCE2A1292500010B1C7 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AC60FFBA2A12924F0010B1C7;
+					};
+					AC60FFD82A1292500010B1C7 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AC60FFBA2A12924F0010B1C7;
+					};
+				};
+			};
+			buildConfigurationList = AC60FFB62A12924F0010B1C7 /* Build configuration list for PBXProject "final exam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC60FFB22A12924F0010B1C7;
+			productRefGroup = AC60FFBC2A12924F0010B1C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC60FFBA2A12924F0010B1C7 /* final exam */,
+				AC60FFCE2A1292500010B1C7 /* final examTests */,
+				AC60FFD82A1292500010B1C7 /* final examUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC60FFB92A12924F0010B1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60FFC82A1292500010B1C7 /* Preview Assets.xcassets in Resources */,
+				AC60FFC52A1292500010B1C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60FFCD2A1292500010B1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60FFD72A1292500010B1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC60FFB72A12924F0010B1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60FFC12A12924F0010B1C7 /* final_examDocument.swift in Sources */,
+				AC60FFBF2A12924F0010B1C7 /* final_examApp.swift in Sources */,
+				AC60FFC32A12924F0010B1C7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60FFCB2A1292500010B1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60FFD42A1292500010B1C7 /* final_examTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60FFD52A1292500010B1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60FFE02A1292500010B1C7 /* final_examUITestsLaunchTests.swift in Sources */,
+				AC60FFDE2A1292500010B1C7 /* final_examUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC60FFD12A1292500010B1C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC60FFBA2A12924F0010B1C7 /* final exam */;
+			targetProxy = AC60FFD02A1292500010B1C7 /* PBXContainerItemProxy */;
+		};
+		AC60FFDB2A1292500010B1C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC60FFBA2A12924F0010B1C7 /* final exam */;
+			targetProxy = AC60FFDA2A1292500010B1C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC60FFE12A1292500010B1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC60FFE22A1292500010B1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC60FFE42A1292500010B1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "final exam/final_exam.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"final exam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "final exam/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSDP222.final-exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC60FFE52A1292500010B1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "final exam/final_exam.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"final exam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "final exam/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSDP222.final-exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC60FFE72A1292500010B1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSDP222.final-examTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/final exam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/final exam";
+			};
+			name = Debug;
+		};
+		AC60FFE82A1292500010B1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSDP222.final-examTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/final exam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/final exam";
+			};
+			name = Release;
+		};
+		AC60FFEA2A1292500010B1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSDP222.final-examUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "final exam";
+			};
+			name = Debug;
+		};
+		AC60FFEB2A1292500010B1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSDP222.final-examUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "final exam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC60FFB62A12924F0010B1C7 /* Build configuration list for PBXProject "final exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60FFE12A1292500010B1C7 /* Debug */,
+				AC60FFE22A1292500010B1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC60FFE32A1292500010B1C7 /* Build configuration list for PBXNativeTarget "final exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60FFE42A1292500010B1C7 /* Debug */,
+				AC60FFE52A1292500010B1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC60FFE62A1292500010B1C7 /* Build configuration list for PBXNativeTarget "final examTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60FFE72A1292500010B1C7 /* Debug */,
+				AC60FFE82A1292500010B1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC60FFE92A1292500010B1C7 /* Build configuration list for PBXNativeTarget "final examUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60FFEA2A1292500010B1C7 /* Debug */,
+				AC60FFEB2A1292500010B1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC60FFB32A12924F0010B1C7 /* Project object */;
+}
